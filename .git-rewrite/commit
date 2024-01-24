@@ -1,0 +1,16 @@
+tree 2529ee64b7fda16f18aadfb00ce844a26346b4b9
+parent 7ac375d1c20fd319feb13f0735169e2f47d4454f
+author Wladimir J. van der Laan <laanwj@gmail.com> 1392901749 +0100
+committer Wladimir J. van der Laan <laanwj@gmail.com> 1393589090 +0100
+
+qt: Modernize 'confirmed' terminology in shown tx status
+
+These days we regard transactions with one confirmation to be
+'Confirmed'.
+Waiting for 6 confirmations is a recommendation but should not
+keep the transaction shown as unconfirmed.
+
+Misc code sanity:
+
+- Merge maturity/status enums, they had become completely disjunct
+- 'confirmed' flag is now called 'countsForBalance' for clarity

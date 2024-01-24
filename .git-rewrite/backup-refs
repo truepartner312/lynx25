@@ -1,0 +1,7 @@
+b148b0761b46218810a3d91d777a4bd0878d7b1f commit	refs/heads/25.x
+b148b0761b46218810a3d91d777a4bd0878d7b1f commit	refs/remotes/origin/25.x
+b148b0761b46218810a3d91d777a4bd0878d7b1f commit	refs/remotes/origin/HEAD
+a85714303c9cf4e690fee47cb521134c09abdacc commit	refs/remotes/origin/develop
+6366ddd643f30333f36754807c4420cbbfcd16b4 commit	refs/tags/v25.1-arm-linux-gnueabihf
+6366ddd643f30333f36754807c4420cbbfcd16b4 commit	refs/tags/v25.1-x86_64-pc-linux-gnu
+6366ddd643f30333f36754807c4420cbbfcd16b4 commit	refs/tags/v25.1.arm-linux-gnueabihf

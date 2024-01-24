@@ -1,0 +1,2 @@
+rm -f opfile
+g++ -g -O2 src/util.cpp src/chunk.cpp src/decode.cpp src/encode.cpp src/main.cpp -o opfile --std=c++17 -lssl -lcrypto
